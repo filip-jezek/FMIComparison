@@ -1,0 +1,3 @@
+﻿translateModelFMU("FMITest.Smith_patSpec", false, "SmithDymolaME", "2", "me", false, 2);
+translateModelFMU("FMITest.Smith_patSpec", false, "SmithDymolaCS", "2", "csSolver", false, 2);
+translateModelFMU("FMITest.Smith_patSpec", false, "SmithDymolaCvodeCS", "2", "cs", false, 2);
