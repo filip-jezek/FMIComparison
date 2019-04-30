@@ -12,8 +12,10 @@ t = 50;
 rep = 10;
 % timeseries = [1*ones(rep, 1); 5*ones(rep, 1); 10*ones(rep, 1)];
 timeseries = [1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
-for i = 1:length(timeseries)
-    for j = 1:rep
+%%
+for j = 1:rep
+    for i = 1:length(timeseries)
+
         k = i*j;
         t = timeseries(i);
         s = 0.01;
